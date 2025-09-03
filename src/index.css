@@ -58,6 +58,11 @@ All colors MUST be HSL.
     --transition-smooth: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
     --transition-slow: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
+    /* Company gradients */
+    --gradient-apptronik: linear-gradient(135deg, hsl(220 100% 70% / 0.8), hsl(280 100% 80% / 0.8));
+    --gradient-crusoe: linear-gradient(135deg, hsl(160 100% 70% / 0.8), hsl(200 100% 80% / 0.8));
+    --gradient-lightmatter: linear-gradient(135deg, hsl(40 100% 70% / 0.8), hsl(20 100% 80% / 0.8));
+
     --radius: 0.5rem;
 
     --sidebar-background: 0 0% 98%;
