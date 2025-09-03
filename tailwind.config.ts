@@ -26,11 +26,13 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					hover: 'hsl(var(--secondary-hover))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -61,7 +63,15 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				surface: 'hsl(var(--surface))',
+				'surface-elevated': 'hsl(var(--surface-elevated))',
+				'text-subtle': 'hsl(var(--text-subtle))'
+			},
+			boxShadow: {
+				'subtle': 'var(--shadow-subtle)',
+				'medium': 'var(--shadow-medium)',
+				'large': 'var(--shadow-large)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
