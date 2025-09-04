@@ -36,6 +36,8 @@ const AccordionCompanyCard = ({
         return "bg-gradient-to-br from-green-400/80 via-teal-500/80 to-blue-400/80";
       case "lightmatter":
         return "bg-gradient-to-br from-yellow-400/80 via-orange-500/80 to-red-400/80";
+      case "suggest a company":
+        return "bg-gradient-to-br from-purple-900/90 via-purple-800/90 to-indigo-900/90";
       default:
         return "bg-gradient-to-br from-gray-400/80 via-gray-500/80 to-gray-600/80";
     }

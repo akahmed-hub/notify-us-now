@@ -9,6 +9,7 @@ import { ArrowRight } from "lucide-react";
 import apptronikImage from "@/assets/apptronik-hero.jpg";
 import crusoeImage from "@/assets/crusoe-hero.jpg";
 import lightmatterImage from "@/assets/lightmatter-hero.jpg";
+import mysteryImage from "@/assets/mystery-hero.jpg";
 
 const companies = [
   {
@@ -34,6 +35,14 @@ const companies = [
     sector: "Hardware",
     stage: "Series D",
     image: lightmatterImage,
+  },
+  {
+    name: "Suggest a Company",
+    description: "Have a company in mind that you'd like to see as an investment opportunity? Let us know!",
+    detailedDescription: "We're always looking for the next breakthrough company to add to our investment opportunities. If you know of an innovative startup or growth-stage company that aligns with our focus on cutting-edge technology, we'd love to hear from you. Share your suggestions and help us discover the next game-changing investment opportunity.",
+    sector: "Your Choice",
+    stage: "Any Stage",
+    image: mysteryImage,
   },
 ];
 
